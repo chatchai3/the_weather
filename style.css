@@ -1,0 +1,37 @@
+body{
+    background: #43c9ce;
+    background: (45deg,#185aad,#43cea2);
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.boxmain{
+    border-radius: 10px;
+    margin: 0 auto;
+    display:flex;
+    width: 40rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    margin: 2rem;
+    width: 20rem;
+}
+.status{
+    color: black;
+    display: flex;
+    height: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box-status{
+    margin: 2rem;
+    width: 10rem;
+}
+form button{
+    background-color: green;
+    border-radius: 4px;
+    border-color: none;
+}
