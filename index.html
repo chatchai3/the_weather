@@ -10,13 +10,20 @@
 </head>
 <body style="background-color: rgb(129, 191, 213);">
         <div class="container  mt-5 text-light">
-            <center>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quidem.</p>
-                <form id="form">
-                    <input type="text" placeholder="search city name" id="search" onfocus="this.value =''">
-                    <button type="submit">Search</button>
-                </form>
-            </center>
+          
+                <center>
+                    
+                        
+                            
+                            <form id="form" style="width: auto; ">
+                                <input type="text" placeholder="search city name" id="search" onfocus="this.value =''">
+                                <button type="submit">Search</button>
+                            </form>
+                        
+                    
+                   
+                </center>
+            
             <center>
                 <h1 id="city"></h1>
                 <h3 id="country"></h3>
@@ -63,11 +70,7 @@
                 alert("ข้อมูลไม่ถูกต้อง")
             }
             console.log(data)
-            show(data)
-            
-            
-            
-            
+            show(data)     
         }
         const show=(data)=>{
             let max = document.getElementById('max');
